@@ -8,9 +8,7 @@ namespace Cw3.DAL
     {
         public IEnumerable<Student> GetStudents();
         public Student GetStudent(int id);
-
         public void AddStudent(Student studentToAdd);
-
         public void RemoveStudent(int id);
 
 
